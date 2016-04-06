@@ -21,3 +21,7 @@ using the original fieldbus equipment, in this project Modbus emulator  ModbusPa
 is used. ModbusPal is also an open source Modbus Tcp/ip client emulator.
 
 The processor also act as an embedded server. If ane remote client makes query through internet for any Modbus register value, processor sends the corresponding Modbus request to the modbus tcp/ip client and then recieves the modbus response. Intel Galileo then forwards this response to the remote client over internet. In this project remote client application is also made using Qt 5.5. The processor needs to send the modbus data to local display as well as to remote client, therefore two thread are used one for usb communication and second for the remote client i.e iot communcation. Linux IPC feature is used to accomplish this task. The embedded linux image running on intel galileo was generated using Yocto Build System. The procedure for the same is explained in intel Documents for generating iot-devkit-image.
+
+Actual Working Image:-
+
+![img_20160405_015447](https://cloud.githubusercontent.com/assets/8409015/14315380/55891248-fc1a-11e5-8e9b-e62a941387ed.jpg)
