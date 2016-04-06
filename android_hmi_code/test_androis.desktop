@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=test_androis
+Exec=/opt/test_androis/bin/test_androis
+Icon=test_androis64
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

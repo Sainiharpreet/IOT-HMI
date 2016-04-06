@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/scada_image">
+        <file>GUI_Bioreact_online.jpg</file>
+    </qresource>
+</RCC>
